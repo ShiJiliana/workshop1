@@ -1,16 +1,7 @@
-'''fath_playlist = input('Введите плей-лист отца: ').split(',')
-fath_playlist.reverse()
-print('Плей-лист мамы:')
-print('\n'.join(fath_playlist), '\n')'''
-
-fath_playlist = []
-print('Введите плей-лист отца: ')
-for i in range(5):
-    music = input()
-    fath_playlist.append(music)
-
-mam_playlist = fath_playlist[::-1]
-
-print('\nПлей-лист мамы:')
-for music in mam_playlist:
-    print(music)
+fath_playlist = print('Введите плей-лист отца:')
+m1 = input()
+m2 = input()
+m3 = input()
+m4 = input()
+m5 = input()
+print('Плейлист для мамы:', m5, m4, m3, m2, m1, sep='\n')
